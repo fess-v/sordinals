@@ -1,6 +1,6 @@
 # sOrdinals: Scaling Ordinals on Stacks
 
-> **Disclaimer:** sOrdinals is a protocol in its experimental stage and is currently undergoing discussion and development. 
+> **Disclaimer:** sOrdinals is a protocol in its experimental stage and is currently undergoing discussion and development. https://sordinals.com/
 
 sOrdinals is a protocol designed to extend the functionality of the Ordinals concept to the Stacks blockchain.
 It enables the conversion of Ordinals into sOrdinals via the sBTC bridge,
