@@ -63,6 +63,16 @@ The resulting value undergoes a sha256 hash function for finalization.
 The order of events follows the sequence set by batch commands, with transfer events being added at the end.
 The transfer sequence aligns with the typical order of STX transfer events in transactions.
 
+Example:
+```javascript
+import { createHash } from 'crypto';
+
+const hashedString = `${transaction.txId}:${event.eventIndex}`;
+
+const inscriptionID = createHash('sha256').update(hashedString).digest('hex');
+```
+
+
 ## Operations
 
 While operations are structured with predefined fields, they're not limited to these. This allows for the inclusion of new fields or types of operations in future upgrades, ensuring flexibility and adaptability.
