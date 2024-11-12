@@ -336,7 +336,7 @@ However, this integration will necessitate additional efforts, particularly in t
 
 ## Indexer API
 
-Base URL: `https://api.sordinals.com/api/v1`
+Base URL: `https://api.sordinals.io/api/v1`
 
 - Get inscriptions with pagination: `/inscriptions?order={order}&page={page}&limit={limit}`
 - Get owned inscriptions with pagination: `/inscriptions/owner/{address}?order={order}&page={page}&limit={limit}`
@@ -345,6 +345,6 @@ Base URL: `https://api.sordinals.com/api/v1`
 - Get inscription details by inscription hash: `/inscriptions/hash/{inscriptionHash}`
 
 Separate domain is currently used to store image content:
-- Get content: `https://content.sordinals.com/{internalInscriptionContentId}`, where `internalInscriptionContentId` is obtainable through any of the previously mentioned requests.
+- Get content: `https://content.sordinals.io/{internalInscriptionContentId}`, where `internalInscriptionContentId` is obtainable through any of the previously mentioned requests.
 
 > **Caution:** Avoid downloading unknown inscription content as it may contain malicious code.
